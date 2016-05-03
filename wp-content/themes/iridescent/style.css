@@ -1,0 +1,249 @@
+/*
+Theme Name: Iridescent
+Author: Johanna Skogh
+Author URI: jskogh.se
+Description: Clean and responsive newspaper theme
+Version: 1.0
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Quicksand:400,300,700|Titillium+Web:400,700);
+
+/**** GENERAL ****/
+body {
+
+}
+
+a {
+    font-family: 'Poiret One', cursive;
+    color: #000066;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .sub-menu {
+        display: none;
+        position: absolute;
+        background: #222;
+        padding: 10px 15px;
+        width: 200px;
+    }
+
+    li:hover .sub-menu {
+        display: block;
+    }
+
+    .navbar-nav {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .navbar-header {
+        margin-top: 15px;
+    }
+}
+
+.current-menu-item li a {
+    background: inherit;
+}
+
+.portfolio-image img {
+    max-width: 100%;
+}
+
+
+.article-preview img {
+    max-width: 100%;
+}
+
+
+.navbar {
+    border: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
+     color: #d048ae;
+}
+
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover {
+    color: #000;
+}
+
+.current-menu-item > a,
+.current-menu-parent > a {
+    background: transparent;
+    color: #d048ae !important;
+}
+
+.navbar-inverse {
+    background: #fff;
+}
+
+.navbar-header {
+    float:none;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.navbar-brand {
+    float:none;
+    border-bottom: 3px solid #8fc0a7;
+    font-size: 72px;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        padding-top: 20px;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.front-page {
+    margin-top: 80px;
+}
+
+.attachment-large,
+.wp-post-image {
+    height: 100%;
+    width: 100%;
+}
+
+/***** FRONT PAGE *****/
+
+
+.entry-content img {
+    max-height: 450px;
+    padding:0;
+}
+
+.entry-excerpt {
+
+}
+
+.image-text {
+    font-style: italic;
+    margin-top: 25px;
+    margin-left: 105px;
+}
+
+.reportage-name {
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    margin-left: 120px;
+    margin-top: -100px;
+}
+
+.subscribe-field {
+    margin-top: 30px;
+    background-color: #2b2a2a ;
+    padding: 30px;
+}
+
+.subscribe-field input[type="email"] {
+    height: 40px;
+    width: 300px;
+    padding-left: 5px;
+    border-radius: 3px;
+    border: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.subscribe-field input[type="submit"] {
+    height: 40px;
+    width: 150px;
+    border-radius: 3px;
+    border: 0;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #8fc0a7;
+    color: #fff;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.kronika {
+    margin-top: 20px;
+
+}
+
+.kronika img {
+    width: 150px;
+    height: 150px;
+}
+
+.single-post-content {
+    margin-top: 30px;
+    max-width: 650px;
+}
+
+/***** FOOTER *****/
+
+footer {
+    background-color: rgba(49, 99, 174, 0.3) ;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.social-media-links {
+    color: #fff;
+    font-size: 42px;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+.social-media-links a{
+    color: #fff;
+    font-size: 42px;
+}
+
+.social-media-links a:hover{
+    color: #8fc0a7;
+}
+
+footer .social-media-links ul {
+    list-style: none;
+}
+
+footer .social-media-links li {
+    display: inline-block;
+    margin: 0 20px;
+    padding-bottom: 15px;
+}
+
+
+/***** WOOCOMMERCE *****/
+.woocommerce .products ul,
+.woocommerce ul.products {
+    background: rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.webshop {
+    margin-top: 60px;
+}
+
+/***** SIDEBAR *****/
+
+.widget ul {
+    list-style: none;
+}
+
+.tagcloud a {
+    font-size: 16px !important;
+    color: rgba(49, 99, 174, 1);
+}
