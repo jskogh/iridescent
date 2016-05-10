@@ -1,3 +1,5 @@
+</div>
+
 <footer>
     <div class="container-fluid">
             <div class="container">
@@ -10,9 +12,15 @@
                         </ul>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+
+                    </div>
+                </div>
             </div>
     </div>
 </footer>
+
 </div> <!-- .container -->
 <?php wp_footer(); ?>
 </body>
